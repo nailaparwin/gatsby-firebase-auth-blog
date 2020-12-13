@@ -1,0 +1,62 @@
+.showcase{
+    min-height: 400px;
+    /*background: url('../img/showcase.jpg'); */
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.showcase h1{
+    margin-top: 80px;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color:#e8491d;
+}
+.showcase img{
+    width: 300px;
+    max-height: 300px;
+    margin: auto;
+}
+
+.showcase p{
+    font-size: 18px;
+    color: black;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /* i dont want scroll bar , i want content hidden if goes out */
+}
+footer{
+    clear: both;
+    padding: 2px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #e8491d;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+button{
+    
+    padding: 5px;
+    
+    color: #fff;
+    background-color: #e8491d;
+    text-align: center;
+    width: 15%;
+    margin: auto;
+}
+.bigbtncontainer{
+    width: 20%;
+    margin: auto;
+    
+}
+.bigbtn{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(62, 108, 194);
+color: white;
+height: 70px;
+}

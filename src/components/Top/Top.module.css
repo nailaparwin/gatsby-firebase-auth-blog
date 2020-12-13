@@ -1,0 +1,10 @@
+.toppic{
+    background-color: cadetblue;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    min-height: 300px;
+    background: url('../../pages/images/blog-top.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}

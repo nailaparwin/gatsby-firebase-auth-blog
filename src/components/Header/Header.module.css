@@ -1,0 +1,106 @@
+.header1{
+    background-color: cadetblue;
+    font-size: larger;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    font: 15px/1.5 Arial, Helvetica, sans-serif; 
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /* i dont want scroll bar , i want content hidden if goes out */
+}
+
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;    
+}
+
+.button_1{
+    height: 38px;
+    background: #e8491d;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+
+} 
+
+.dark{
+    padding: 15px;
+    background: #354248;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px; /* top right bottom left*/
+}
+
+header .branding{
+    float: left;
+}
+
+header .branding h1{
+    margin:0;
+    font: 22px/1.5 Arial, Helvetica, sans-serif; 
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #ccc;
+    font-weight: bold;
+}
+
+/* showcase */
+.showcase{
+    min-height: 400px;
+    /*background: url('../img/showcase.jpg'); */
+    text-align: center;
+    color: #fff;
+}
+
+.showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color:#e8491d;
+}
+.showcase img{
+    width: 600px;
+    max-height: 600px;
+}
+
+.showcase p{
+    font-size: 20px;
+}
