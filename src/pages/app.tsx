@@ -10,8 +10,9 @@ const App = () => (
   <Layout>
     <Status />
     <Router>
-      <PrivateRoute path="/app/bloglist" component={BlogList} location={''} />      
-      <Login path="/app/login" />
+      <PrivateRoute path="/app/bloglist" component={BlogList} location={''} />    
+     
+      <Login path="/app/login" component={Login}/>
     </Router>
   </Layout>
 )
